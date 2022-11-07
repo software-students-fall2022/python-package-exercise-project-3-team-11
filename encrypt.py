@@ -14,7 +14,7 @@ def encrypt (string):
 		if swapped_l[j] == 33:
 			swapped_l[j] = 126
 		else:
-			swapped_l[j] = swapped_l[j-1]
+			swapped_l[j] = swapped_l[j]-1
 	for k in range(0, len(swapped_l)):
 		if swapped_l[k] > 64:
 			swapped_l[k] = swapped_l[k]*2-126+33
