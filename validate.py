@@ -37,6 +37,7 @@ if validate_password(password) == False:
 	print("This password is invalid. Password should have at least 6 characters with 1 special character, 1 capital, and 1 number.")
 
 '''
+To test function
 print(validate_password('@A23124') == True)
 print(validate_password('1223124') == False)
 print(validate_password('A23124') == False)
