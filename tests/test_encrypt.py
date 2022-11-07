@@ -1,4 +1,5 @@
 import pytest
+from passwordManager import encrypt
 
 class Tests:
 	def test_odd_chars(self):
