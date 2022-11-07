@@ -26,6 +26,8 @@ def update_password(uname, password):
                             break
                 
                 break
+            
+            break
 
         return password
 
