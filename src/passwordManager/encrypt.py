@@ -54,5 +54,5 @@ def encryptFunction (string):
 	for i in swapped_l:
 		encrypted = encrypted + chr(i)
 	return encrypted
-	
+
 
