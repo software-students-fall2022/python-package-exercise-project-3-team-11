@@ -27,7 +27,16 @@ A little exercise to create a Python package, build it, test it, distribute it, 
     password = generator.generate_password()
     ```
 ### Encode Password
-
+- The `encryptFunction` function can encrypt a password with any length.
+- The encryption follows the following rules given a string: 
+	1. reverse the string
+	2. swap the char pairs
+	3. add dec by their (index+1), then (2(index+1), then 3(index+1) 3 times (3 character per string)
+	Note: if the calculated value is over 126 then loop to 33 again by adding on the remainder.
+	```python
+    from passwordManager import encrypt
+    encrypted = encrypt.encryptFunction("hello")
+    ```
 ### Decode Password
 
 ### Check Password 
