@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "passwordManagerByAscii"
 description = "A pacakge that can generate, validate, encode, and decode passwords. built with build using setuptools, uploaded to PyPI using twine, and distributed via pip."
-version = "0.2"
+version = "0.2.1"
 authors = [
   { name="Victoria Zhang", email="rz1424@nyu.edu" },
   { name="Tiffany Lee", email="el2765@nyu.edu" },

@@ -3,7 +3,7 @@
 # passwordManagerByAscii Package
 A pacakge that can generate, validate, encode, and decode passwords. built with build using setuptools, uploaded to PyPI using twine, and distributed via pip.
 
-Checkout our package [at pypi](https://pypi.org/project/passwordManagerByAscii/0.2/)
+Checkout our package [at pypi](https://pypi.org/project/passwordManagerByAscii/0.2.1/)
 
 ## Authors
 - Victoria Zhang: [Github](https://github.com/Ruixi-Zhang)
@@ -40,7 +40,7 @@ Checkout our package [at pypi](https://pypi.org/project/passwordManagerByAscii/0
     password = generator.generate_password()
     ```
 ### Encode Password
-- The `encryptFunction` function can encrypt a password with any length.
+- The `encode_password` function can encrypt a password with any length.
 - The encryption follows the following rules given a string: 
 	1. reverse the string
 	2. swap the char pairs
@@ -48,7 +48,7 @@ Checkout our package [at pypi](https://pypi.org/project/passwordManagerByAscii/0
 	Note: if the calculated value is over 126 then loop to 33 again by adding on the remainder.
 	```python
     from passwordManagerByAscii import encrypt
-    encrypted = encrypt.encryptFunction("hello")
+    encrypted = encrypt.encode_password("hello")
     ```
 ### Decode Password
 - The `decode_password` function can decrypt an encrypted password that is created by the `encode_password` function. 
