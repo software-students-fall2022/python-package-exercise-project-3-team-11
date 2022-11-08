@@ -13,6 +13,18 @@ A little exercise to create a Python package, build it, test it, distribute it, 
 
 ## Functions
 ### Validate Password
+- The 'validate_password' function can test if the user generated password is valid. 
+- In this package, there are two ways for users to generate password. 
+    1. Users can use the generate password function to generate a random password that meets the requirement
+    2. Users can type in their own password and check if the user generated password is valid. 
+- Validate function is applicable for #2. 
+- When users generate a password, it checks if the password is at least 6 characters, contains at least 1 special character, and at least 1 capital alphabet to maintain security. 
+    ```python
+    from passwordManager import validate
+    validate = validate.validate_pasword(password)
+    ```
+    <!-- the parameter password would take the user input -->
+
 
 ### Generate Password
 - The `generate_password` function can generate a random password within length 6 to 15. The password is guarantee meet the requirement above.
