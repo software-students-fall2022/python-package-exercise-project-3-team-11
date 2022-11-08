@@ -29,5 +29,14 @@ A little exercise to create a Python package, build it, test it, distribute it, 
 ### Encode Password
 
 ### Decode Password
-
+- The `decode_password` function can decrypt an encrypted password that is created by the `encode_password` function. 
+- Function takes in a string type and will raise error if unmatched types are give.
+- Function will also raise error if the value in the string either does not match encryption format, or if any of the character is not in the decimal range of 33 to 126. 
+- Function returns a decoded string.
+    ```python
+    from passwordManager import decoder, encrypt
+    encrypted_password = encrypt.encode_password('hello')
+    decoded_password= decoder.decode_password(encrypted_password)
+    #decoded_password is 'hello'
+    ```
 ### Check Password 

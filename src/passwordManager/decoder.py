@@ -1,4 +1,4 @@
-def decrypt(password):
+def decode_password(password):
     # check if password is instance of string
     if not isinstance(password, str):
         raise TypeError("Only string input is allowed!")
