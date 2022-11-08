@@ -21,7 +21,7 @@ Checkout our package [at pypi](https://pypi.org/project/passwordManagerByAscii/0
 - Validate function is applicable for #2. 
 - When users generate a password, it checks if the password is at least 6 characters, contains at least 1 special character, and at least 1 capital alphabet to maintain security. 
     ```python
-    from passwordManager import validate
+    from passwordManagerByAscii import validate
     validate = validate.validate_pasword(password)
     ```
     <!-- the parameter password would take the user input -->
