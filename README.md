@@ -61,3 +61,25 @@ Checkout our package [at pypi](https://pypi.org/project/passwordManagerByAscii/0
     decoded_password= decoder.decode_password(encrypted_password)
     #decoded_password is 'hello'
     ```
+## Project Contribution
+1. Install pipenv using the command 
+```
+python3 -m pip install --user pipenv
+```
+2. Activate the virtual enviroment
+```
+pipenv shell
+```
+3. Install required packages
+```
+- pipenv install pytest
+- pipenv install build
+```
+4. Build the package
+```
+python -m build
+```
+5. Test the package from main directory!
+```
+python3 -m pytest
+```
