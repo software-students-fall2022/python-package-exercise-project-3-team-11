@@ -1,5 +1,5 @@
 import pytest
-from passwordManager import decoder
+from passwordManagerByAscii import decoder
 
 class Tests:
     def test_chracter_out_of_range(self):

@@ -1,5 +1,4 @@
-import pytest
-from passwordManager import generator, validate
+from passwordManagerByAscii import generator, validate
 
 class Tests: 
     def test_input_below_6(self):
