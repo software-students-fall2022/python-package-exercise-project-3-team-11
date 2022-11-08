@@ -15,7 +15,19 @@ A little exercise to create a Python package, build it, test it, distribute it, 
 ### Validate Password
 
 ### Generate Password
-
+- The `generate_password` function can generate a random password within length 6 to 15. The password is guarantee meet the requirement above.
+- Generate a password given a length. Note: if the length is greater than 15 or lower than 6. It will generate a random password  within the 6 and 15 range.
+    ```python
+    from passwordManager import generator
+    password = generator.generate_password(10)
+    ```
+- Generate a password without specifying length. Will generate a password with random length within 6 and 15 range.
+    ```python
+    from passwordManager import generator
+    password = generator.generate_password()
+    ```
 ### Encode Password
 
 ### Decode Password
+
+### Check Password 
