@@ -8,7 +8,7 @@ A little exercise to create a Python package, build it, test it, distribute it, 
 - Victoria Zhang: [Github](https://github.com/Ruixi-Zhang)
 - Jenny Shen: [Github](https://github.com/JennyShen10792)
 - Tiffany Lee: [Github](https://github.com/les5185)
-- Seok Tae Kim: [Github](https://github.com/)
+- Seok Tae Kim: [Github](https://github.com/seoktaekim)
 - Khalifa AlFalasi: [Github](https://github.com/)
 
 ## Functions
