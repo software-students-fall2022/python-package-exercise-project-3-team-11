@@ -1,4 +1,4 @@
-def encryptFunction (string):
+def encode_password (string):
 	nonencrypted = string[::-1]
 	first_l = [ord(c) for c in nonencrypted]
 	swapped_l = []
