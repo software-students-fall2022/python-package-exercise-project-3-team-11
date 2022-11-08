@@ -1,4 +1,21 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=9107020&assignment_repo_type=AssignmentRepo)
-# Python Package Exercise
+![Python build & test](https://github.com/software-students-fall2022/python-package-exercise-project-3-team-11/actions/workflows/build.yaml/badge.svg)
 
+# Password Manager Package
 A little exercise to create a Python package, build it, test it, distribute it, and use it. See [instructions](./instructions.md) for details.
+
+
+## Team
+- Victoria Zhang: [Github](https://github.com/Ruixi-Zhang)
+- Jenny Shen: [Github](https://github.com/JennyShen10792)
+- Tiffany Lee: [Github](https://github.com/les5185)
+- Seok Tae Kim: [Github](https://github.com/)
+- Khalifa AlFalasi: [Github](https://github.com/)
+
+## Functions
+### Validate Password
+
+### Generate Password
+
+### Encode Password
+
+### Decode Password
