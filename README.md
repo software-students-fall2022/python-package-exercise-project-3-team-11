@@ -3,7 +3,7 @@
 # passwordManagerByAscii Package
 A pacakge that can generate, validate, encode, and decode passwords. built with build using setuptools, uploaded to PyPI using twine, and distributed via pip.
 
-Checkout our package [at pypi](https://pypi.org/project/passwordManagerByAscii/0.2.1/)
+Checkout our package [at pypi](https://pypi.org/project/passwordManagerByAscii/0.2.2/)
 
 ## Authors
 - Victoria Zhang: [Github](https://github.com/Ruixi-Zhang)
