@@ -5,26 +5,6 @@ A pacakge that can generate, validate, encode, and decode passwords. built with 
 
 Checkout our package [at pypi](https://pypi.org/project/passwordManagerByAscii/0.2.2/)
 
-Example application: [a password management program](https://github.com/software-students-fall2022/python-package-exercise-project-3-team-11/blob/main/src/test.py)
-
-The example application prompts the user to choose one of the five options by entering a number from 1 - 5: 
-1. Generate Password: which prompts the user to enter a length between 6 to 15 characters. If the length was less than 6 characters or greater than 15 characters, the `generate_password` function will randomly generate a password in the range of 6 to 15. The generated password will be printed.
-
-2. Encrypt Password: which prompts the user to input a password which will be encrypted using the `encode_password` function. Both the password provided by the user and the encrypted password will be printed.
-
-3. Decrypt Password: which prompts the user to input a password which will be decrypted using the `decode_password`. Both the password provided by the user and the decrypted password will be printed.
-
-4. Validate password: which prompts the user to enter a password which will be passed to the `validate_password` function. A message stating whether the password is valid or not will be printed.
-
-5. Exit program: which will end the program. 
-
-The program will keep prompting the user to choose an option unless the user enters the integer 5 which will end the program. Any input less than 1 or greater than 5 when choosing an option will result in an error message being printed and prompting the user to try again.
-
-To access, click on the following link [a password management program](https://github.com/software-students-fall2022/python-package-exercise-project-3-team-11/blob/main/src/test.py)
-
-To run the program, follow the instructions found below under the `How to Install and use the Package`
-
-
 ## Authors
 - Victoria Zhang: [Github](https://github.com/Ruixi-Zhang)
 - Jenny Shen: [Github](https://github.com/JennyShen10792)
@@ -116,3 +96,23 @@ python -m build
 ```
 python3 -m pytest
 ```
+
+## Example program
+Example application: [a password management program](https://github.com/software-students-fall2022/python-package-exercise-project-3-team-11/blob/main/src/test.py)
+
+The example application prompts the user to choose one of the five options by entering a number from 1 - 5: 
+1. Generate Password: which prompts the user to enter a length between 6 to 15 characters. If the length was less than 6 characters or greater than 15 characters, the `generate_password` function will randomly generate a password in the range of 6 to 15. The generated password will be printed.
+
+2. Encrypt Password: which prompts the user to input a password which will be encrypted using the `encode_password` function. Both the password provided by the user and the encrypted password will be printed.
+
+3. Decrypt Password: which prompts the user to input a password which will be decrypted using the `decode_password`. Both the password provided by the user and the decrypted password will be printed.
+
+4. Validate password: which prompts the user to enter a password which will be passed to the `validate_password` function. A message stating whether the password is valid or not will be printed.
+
+5. Exit program: which will end the program. 
+
+The program will keep prompting the user to choose an option unless the user enters the integer 5 which will end the program. Any input less than 1 or greater than 5 when choosing an option will result in an error message being printed and prompting the user to try again.
+
+To access, click on the following link [a password management program](https://github.com/software-students-fall2022/python-package-exercise-project-3-team-11/blob/main/src/test.py)
+
+To run the program, follow the instructions found below under the `How to Install and use the Package`
