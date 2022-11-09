@@ -105,6 +105,10 @@ python -m build
 ```
 python3 -m pytest
 ```
+6. Exit the virtual environment with the command 
+```
+exit
+```
 
 ## Example program
 Example application: [a password management program](https://github.com/software-students-fall2022/python-package-exercise-project-3-team-11/blob/main/src/test.py)
@@ -124,10 +128,6 @@ The program will keep prompting the user to choose an option unless the user ent
 
 To access, click on the following link [a password management program](https://github.com/software-students-fall2022/python-package-exercise-project-3-team-11/blob/main/src/test.py)
 
-To run the program, follow the instructions found below under the `How to Install and use the Package`
-=======
-6. Exit the virtual environment with the command 
-```
-exit
-```
+To run the program, follow the instructions found above under the `How to Install and use the Package` section.
+
 
