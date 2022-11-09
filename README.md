@@ -76,9 +76,7 @@ pipenv install -i https://pypi.org/project/passwordManagerByAscii/0.2.2/
 pipenv shell
 ```
 
-3. Create a Python program file that imports the package and uses it. 
-- Check the [functions](#functions) to implement in program
-- e.g. from passwordManagerAscii import validate and then print(validate_password('@A23124')) (replace validate_password('@A23124') with any module name and function that exists in the package) .
+3. Create a Python program file that imports the package and uses it. Check the [functions](#functions) section to see implementation in program.
 
 4. Run the program using this command 
 ```
