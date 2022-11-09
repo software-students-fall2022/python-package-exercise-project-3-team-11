@@ -82,28 +82,39 @@ To run the program, follow the instructions found below under the `How to Instal
     ```
 
 ## How to Install and use the Package
-1. Create a ```pipenv```-managed virtual environment and install the latest version of your package installed: pipenv install -i https://pypi.org/project/passwordManagerByAscii/0.2.2/
+1. Create a ```pipenv```-managed virtual environment and install the latest version of the package
+```
+pipenv install -i https://pypi.org/project/passwordManagerByAscii/0.2.2/
+```
 (Note that if you've previously created a pipenv virtual environment in the same directory, you may have to delete the old one first. Find out where it is located with the ```pipenv --venv``` command.)
 
 2. Activate the virtual environment using this command
-```pipenv shell```
-
-3. Create a Python program file that imports your package and uses it. e.g. from passwordManagerAscii import validate and then print(validate_password('@A23124')) (replace validate_password('@A23124') with any module name and function that exists in your package) .
-
-4. Run the program using this command ```python3 my_program_filename.py```
-
-5. Exit the virtual environment with the command ```exit```
-
-## How to Contibute in this Package
-1. Install pipenv using the command 
 ```
-python3 -m pip install --user pipenv
+pipenv shell
 ```
+
+3. Create a Python program file that imports the package and uses it. 
+- Check the [functions](#functions) to implement in program
+- e.g. from passwordManagerAscii import validate and then print(validate_password('@A23124')) (replace validate_password('@A23124') with any module name and function that exists in the package) .
+
+4. Run the program using this command 
+```
+python3 my_program_filename.py
+```
+
+5. Exit the virtual environment with the command 
+```
+exit
+```
+
+## How to test package
+1. Set up virtual enviroment following steps [number 1](#How-to-Install-and-use-the-Package)
+
 2. Activate the virtual enviroment
 ```
 pipenv shell
 ```
-3. Install required packages
+3. Install required packages to test and build the package
 ```
 pipenv install pytest
 pipenv install build
@@ -115,4 +126,8 @@ python -m build
 5. Test the package from main directory!
 ```
 python3 -m pytest
+```
+6. Exit the virtual environment with the command 
+```
+exit
 ```
