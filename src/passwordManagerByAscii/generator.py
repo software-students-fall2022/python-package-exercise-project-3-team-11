@@ -31,9 +31,3 @@ def generate_password(length=None):
                 c.extend(range(123, 126))
                 password += chr(random.choice(c))
     return password
-
-# def generate_password():
-#     length = random.randint(6, 15)
-#     return generate_password(length)
-
-print(generate_password(1))
