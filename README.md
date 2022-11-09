@@ -5,6 +5,9 @@ A pacakge that can generate, validate, encode, and decode passwords. built with 
 
 Checkout our package [at pypi](https://pypi.org/project/passwordManagerByAscii/0.2.2/)
 
+Example application: [a password management program](https://github.com/software-students-fall2022/python-package-exercise-project-3-team-11/blob/main/src/test.py)
+
+
 ## Authors
 - Victoria Zhang: [Github](https://github.com/Ruixi-Zhang)
 - Jenny Shen: [Github](https://github.com/JennyShen10792)
