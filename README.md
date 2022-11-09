@@ -61,7 +61,7 @@ Checkout our package [at pypi](https://pypi.org/project/passwordManagerByAscii/0
     #decoded_password is 'hello'
     ```
 
-# How to Install and use the Package
+## How to Install and use the Package
 1. Create a ```pipenv```-managed virtual environment and install the latest version of your package installed: pipenv install -i https://test.pypi.org/simple/ examplepackagefb1258==0.0.7. 
 (Note that if you've previously created a pipenv virtual environment in the same directory, you may have to delete the old one first. Find out where it is located with the ```pipenv --venv``` command.)
 
@@ -74,7 +74,7 @@ Checkout our package [at pypi](https://pypi.org/project/passwordManagerByAscii/0
 
 5. Exit the virtual environment with the command ```exit```
 
-# How to Contibute in this Package
+## How to Contibute in this Package
 1. Install pipenv using the command 
 ```
 python3 -m pip install --user pipenv
