@@ -27,7 +27,7 @@ while True:
         print("Here is your password and encoded password: " + password + " / " + encrypted_password)
         continue
     elif option == 3:
-        password = input("Enter an encrypted password to descrypt: ")
+        password = input("Enter an encrypted password to decrypt: ")
         decrypted_password = decoder.decode_password(password)
         print("Here is your encrypted password and decoded password: " + password + " / " + decrypted_password)
         continue
