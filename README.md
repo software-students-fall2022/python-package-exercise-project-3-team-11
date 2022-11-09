@@ -22,10 +22,9 @@ Checkout our package [at pypi](https://pypi.org/project/passwordManagerByAscii/0
 - When users generate a password, it checks if the password is at least 6 characters, contains at least 1 special character, and at least 1 capital alphabet to maintain security. 
     ```python
     from passwordManagerByAscii import validate
-    validate = validate.validate_pasword(password)
+    # the parameter would take the user input
+    validate = validate.validate_pasword('Password123@')
     ```
-    <!-- the parameter password would take the user input -->
-
 
 ### Generate Password
 - The `generate_password` function can generate a random password within length 6 to 15. The password is guarantee meet the requirement above.
