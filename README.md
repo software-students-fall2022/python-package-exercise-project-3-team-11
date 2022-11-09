@@ -22,7 +22,7 @@ Example application: [a password management program](https://github.com/software
     1. Users can use the generate password function to generate a random password that meets the requirement
     2. Users can type in their own password and check if the user generated password is valid. 
 - Validate function is applicable for #2. 
-- When users generate a password, it checks if the password is at least 6 characters, contains at least 1 special character, and at least 1 capital alphabet to maintain security. 
+- When users generate a password, it checks if the password is at least 6 characters, contains at least 1 special character, 1 number, and 1 capital alphabet to maintain security. 
     ```python
     from passwordManagerByAscii import validate
     # the parameter would take the user input
@@ -63,7 +63,21 @@ Example application: [a password management program](https://github.com/software
     decoded_password= decoder.decode_password(encrypted_password)
     #decoded_password is 'hello'
     ```
-## Project Contribution
+
+## How to Install and use the Package
+1. Create a ```pipenv```-managed virtual environment and install the latest version of your package installed: pipenv install -i https://test.pypi.org/simple/ examplepackagefb1258==0.0.7. 
+(Note that if you've previously created a pipenv virtual environment in the same directory, you may have to delete the old one first. Find out where it is located with the ```pipenv --venv``` command.)
+
+2. Activate the virtual environment using this command
+```pipenv shell```
+
+3. Create a Python program file that imports your package and uses it. e.g. from passwordManagerAscii import validate and then print(validate_password('@A23124')) (replace validate_password('@A23124') with any module name and function that exists in your package) .
+
+4. Run the program using this command ```python3 my_program_filename.py```
+
+5. Exit the virtual environment with the command ```exit```
+
+## How to Contibute in this Package
 1. Install pipenv using the command 
 ```
 python3 -m pip install --user pipenv
