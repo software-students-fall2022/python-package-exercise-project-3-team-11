@@ -14,7 +14,7 @@ def encode_password (string):
 				swapped_l.append(first_l[2*i])
 		if len(first_l)/2 % 2 != 0:
 			swapped_l.append(first_l[int((len(first_l))-1)])
-	print (swapped_l)
+	# print (swapped_l)
 	j=0
 	index=j
 	while j < len(swapped_l):
@@ -37,19 +37,19 @@ def encode_password (string):
 			first = swapped_l[j]+(index+1)
 			swapped_l[j]=first
 			second = first + 2*(index+1)
-			print (2*(index+1))
-			print (second)
+			# print (2*(index+1))
+			# print (second)
 			if second > 126:
 				second = second-126+33
 			swapped_l.insert(j+1, second)
 			third = second + 3*(index+1)
-			print (3*(index+1))
+			# print (3*(index+1))
 			if third > 126:
 				third = third-126+33
 			swapped_l.insert(j+2, third)
 		j += 3
 		index+=1
-	print (swapped_l)
+	# print (swapped_l)
 	encrypted = ""
 	for i in swapped_l:
 		encrypted = encrypted + chr(i)
