@@ -72,8 +72,8 @@ pipenv shell
 ```
 3. Install required packages
 ```
-- pipenv install pytest
-- pipenv install build
+pipenv install pytest
+pipenv install build
 ```
 4. Build the package
 ```
